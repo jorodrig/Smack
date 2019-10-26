@@ -15,6 +15,14 @@ class GradientView: UIView {
         didSet {
             self.setNeedsLayout()
         }
-    }
+        
 
+    }
+    @IBInspectable var bottomColor:  UIColor = UIColor.green {
+        didSet {
+            self.setNeedsLayout()
+        }
+        
+        
+    }
 }
