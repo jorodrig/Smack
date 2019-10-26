@@ -10,6 +10,9 @@ import UIKit
 
 class ChannelVC: UIViewController {
 
+    //We will use the same Login BTN to show the user name when they login. However, before anyone logs in, it will simply display Login
+    @IBOutlet weak var loginBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -18,6 +21,12 @@ class ChannelVC: UIViewController {
     }
     
 
-
+    @IBAction func loginBtnPressed(_ sender: Any) {
+        
+        performSegue(withIdentifier: TO_LOGIN, sender: nil )
+        
+        
+    }
+    
 
 }
