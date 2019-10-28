@@ -12,6 +12,8 @@ class ChannelVC: UIViewController {
 
     //We will use the same Login BTN to show the user name when they login. However, before anyone logs in, it will simply display Login
     @IBOutlet weak var loginBtn: UIButton!
+    @IBAction func prepareForUnwind(segue: UIStoryboardSegue){ //this is needed to unwind from closeBtn action in CreateAccountVC.swift
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

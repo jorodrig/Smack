@@ -18,6 +18,7 @@
 		7CD44FF723627A93003908DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CD44FF523627A93003908DB /* LaunchScreen.storyboard */; };
 		7CD450072363AA47003908DB /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD450062363AA47003908DB /* ChatVC.swift */; };
 		7CD450092363AA5E003908DB /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD450082363AA5E003908DB /* ChannelVC.swift */; };
+		7CFB73D92366498000D88C69 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFB73D82366498000D88C69 /* CreateAccountVC.swift */; };
 		FF897F914F5E708C1DAA644C /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FE76AB19B6CD2F99E1499C /* Pods_Smack.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		7CD44FF823627A93003908DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CD450062363AA47003908DB /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		7CD450082363AA5E003908DB /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		7CFB73D82366498000D88C69 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		A2FE76AB19B6CD2F99E1499C /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -123,6 +125,7 @@
 				7CD450062363AA47003908DB /* ChatVC.swift */,
 				7CD450082363AA5E003908DB /* ChannelVC.swift */,
 				7CCE4A112364E486003C3421 /* LoginVC.swift */,
+				7CFB73D82366498000D88C69 /* CreateAccountVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			files = (
 				7CD450092363AA5E003908DB /* ChannelVC.swift in Sources */,
 				7CD450072363AA47003908DB /* ChatVC.swift in Sources */,
+				7CFB73D92366498000D88C69 /* CreateAccountVC.swift in Sources */,
 				7CCE4A122364E486003C3421 /* LoginVC.swift in Sources */,
 				7C70301E2363C3A800E0309E /* GradientView.swift in Sources */,
 				7CD44FED23627A93003908DB /* AppDelegate.swift in Sources */,
